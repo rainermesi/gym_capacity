@@ -3,8 +3,8 @@ import pandas as pd
 
 # data import
 
-datetime_gp_hour = pd.read_csv('/home/rainermesi/Documents/myfitness_capacity/group_by_hour.csv')
-venues_df = pd.read_csv('/home/rainermesi/Documents/myfitness_capacity/venues_list.csv')
+datetime_gp_hour = pd.read_csv('group_by_hour.csv')
+venues_df = pd.read_csv('venues_list.csv')
 venues_list = venues_df.values.tolist()
 
 # data prep
